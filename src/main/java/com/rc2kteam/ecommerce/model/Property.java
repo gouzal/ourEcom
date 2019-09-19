@@ -1,4 +1,5 @@
 package com.rc2kteam.ecommerce.model;
 
-public class Adress {
+public class Property {
+
 }

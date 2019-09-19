@@ -7,15 +7,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @Entity
 @Data
-public class OrderPyment {
+public class AddressType {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private double amount;
-    private LocalDateTime paymentDate;
+    private String label;
 }
