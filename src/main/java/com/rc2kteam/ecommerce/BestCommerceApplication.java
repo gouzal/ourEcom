@@ -8,7 +8,6 @@ public class BestCommerceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BestCommerceApplication.class, args);
-		System.out.println("hello world");
 	}
 
 }
